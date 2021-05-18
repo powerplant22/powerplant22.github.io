@@ -1,0 +1,252 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: left;
+    padding: 100px;
+    padding-left: 50px;
+    text-transform: uppercase;
+    font-size: 600%;
+}
+ 
+h2 {
+    text-align: left;
+}
+ 
+body {
+    background-color: rgb(41, 41, 41);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+ 
+button {
+    border-radius: 15px;
+    border: none;
+}
+ 
+.rosterimages {
+    background-color: rgb(31, 29, 29);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+ 
+.rosterimages img {
+    border-radius: 65%;
+    margin: 24px;
+    box-shadow: rgb(255, 255, 255) 0px 0px 4px;
+}
+ 
+ a img :hover {
+    decoration: black;
+}
+ 
+footer{
+    background-color: black;
+    padding: 10px 20px;
+}
+ 
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+ 
+nav li {
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+ 
+nav, ul, li, a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    text-align: left;
+    font-weight: 550;
+}
+ 
+html {
+    scroll-behavior: smooth;
+}
+ 
+a:hover {
+    opacity: 75%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+header .logo a {
+    background-image: url("images/POWERPLANT_free-file\ \(1\).png");
+    background-size: 125px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    height: 125px;
+    width: 125px;
+    text-indent: -999999px;
+}
+ 
+header a {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+section header {
+    border-image-width: 50px;
+}
+ 
+.news {
+    background-color: white;
+    height: 350px;
+    color: black;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    text-transform: uppercase;
+    padding: 10px;
+}
+ 
+.contact-bar {
+    color: rgb(204, 204, 204);
+    opacity: 75%;
+    text-align: center;
+}
+ 
+.news-pictures {
+    margin-top: 27px;
+    display: inline-block;
+    vertical-align: top;
+    border: gray;
+}
+ 
+figure {
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+}
+ 
+figure img {
+    vertical-align: top;
+    height: 250px;
+    width: 443px;
+}
+ 
+figure figcaption {
+    border: 1px gray;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+ 
+h6 {
+    margin-top: 0;
+    margin-bottom: 6px;
+    font-size: 18px;
+    line-height: 125%;
+    display: block;
+    color: rgb(255, 255, 255);
+}
+ 
+.news-text {
+    color: black;
+    margin-bottom: 6px;
+    margin-top: -35px;
+    line-height: 125%;
+}
+ 
+.shop-point {
+    background-color: black;
+    height: 400px;
+    color: white;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding: 10px;
+}
+ 
+.shop-pictures {
+    background-color: rgb(31, 29, 29);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+ 
+.shop-pictures img {
+    margin-left: 74px;
+    height: 276px;
+    width: 292px;
+    border-radius: 15%;
+}
+ 
+.links {
+    text-align: center;
+    color: gainsboro;
+}
+ 
+.background {
+    background: black;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    height: 400px;
+    background-image: url(images/spac2.jpg);
+}
+ 
+.socials {
+    text-align: center;
+    padding: 10px;
+}
+ 
+.links {
+    text-decoration: underline;
+}
+ 
+.xantaresvidi {
+    padding-top: 21px;
+    padding-left: 200px;
+}
+ 
+.xantaresvidiborder {
+    box-shadow: 0px 0px 1px gray;
+    padding-bottom: 30px;
+}
+ 
+.xantares-text {
+    color: black;
+    margin-bottom: 6px;
+    line-height: 125%;
+    margin-top: -35px;
+}
+ 
+.shoutout {
+    color: black;
+    margin-bottom: 6px;
+    line-height: 125%;
+    margin-top: -35px;
+}
+ 
+.shoutout-video {
+    padding-left: 200px;
+}
+ 
+.vsovidi {
+    padding-bottom: 30px;
+    box-shadow: 0px 0px 1px gray;
+}
+
+.pasha {
+    padding-bottom: 30px;
+    box-shadow: 0px 0px 1px gray;
+}
